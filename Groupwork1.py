@@ -14,8 +14,6 @@ for x in ciphertext:
     if x in dct:
         dct[x] += 1
 
-dct
-
 decoder = {'A': "f",
            'B': "",
            'C': "m",
@@ -49,4 +47,4 @@ for y in ciphertext:
     x = y if x == "" else x
     plaintext += x
 
-plaintext
+print(plaintext)
